@@ -1,8 +1,20 @@
-function slideAdd(){
-    document.getElementById('slideShower').style.width = 100 +'%';
+var slideValue = 0;
+
+function slideAdd() {
+    if (slideValue < 100) {
+        slideValue += 10;
+    }
+    slideShow();
 }
 
-function slideSub(){
-    document.getElementById('slideShower').style.width = 10 +'%';
+function slideSub() {
+    if (slideValue > 0) {
+        slideValue -= 10;
+    }
+    slideShow();
+}
+
+function slideShow() {
+    $('#slideShower').css('width', slideValue + '%');
 }
 

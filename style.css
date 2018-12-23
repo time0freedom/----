@@ -3,7 +3,7 @@ body{
     margin: 0;
 }
 #slideShower{
-    width: 10%;
+    width: 0%;
     background: dodgerblue;
     height: 5px;
     transition: width 1s;
