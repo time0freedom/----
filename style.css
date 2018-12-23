@@ -1,0 +1,10 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#slideShower{
+    width: 10%;
+    background: dodgerblue;
+    height: 5px;
+    transition: width 1s;
+}
